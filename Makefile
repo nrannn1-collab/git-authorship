@@ -12,3 +12,12 @@ license-check:
 	poetry export --format=requirements.txt --output=requirements.txt
 	poetry run liccheck
 	rm requirements.txt
+
+
+# -----------------------------------------------
+# <lint>
+format:
+	python -m ruff version
+	python -m ruff check .
+# </lint>
+# -----------------------------------------------

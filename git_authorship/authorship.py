@@ -203,4 +203,4 @@ def _AuthorshipInfo() -> AuthorshipInfo:
     return {"lines": 0}
 
 
-__all__ = ["file", "repo"]
+__all__ = ["for_file", "for_repo"]
